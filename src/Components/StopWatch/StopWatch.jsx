@@ -40,7 +40,6 @@ function StopWatch () {
     
     return (
         <div className="stop-watch">
-             <img src={process.env.PUBLIC_URL+"pic.png"} />
 <Timer time={time} />
 <ControlButtons active={isActive}
 isPaused={isPaused}
